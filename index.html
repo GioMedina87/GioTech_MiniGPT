@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GioTech MiniGPT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="brand">
+        <div class="bot-logo">🤖</div>
+        <div class="brand-text">
+          <h1>GioTech MiniGPT</h1>
+          <p>AI Assistant • ChatGPT-style • GioTech Tools</p>
+        </div>
+      </div>
+      <span class="status-dot"></span>
+    </header>
+
+    <main class="chat-wrapper">
+      <div id="chat-log" class="chat-log">
+        <div class="message bot">
+          <div class="avatar">🤖</div>
+          <div class="bubble">
+            <div class="name">GioTech Bot</div>
+            <p>Hi! I’m your mini ChatGPT-style assistant. Ask me anything — career, tech, HVAC, or interview questions.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="chat-input-bar">
+      <textarea id="user-input" placeholder="Ask me something..."></textarea>
+      <button id="send-btn">Send</button>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
